@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  折叠动画
+//
+//  Created by xxoo on 15/12/22.
+//  Copyright © 2015年 xxoo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define SCREEN_WIDTH             [[UIScreen mainScreen] bounds].size.width
+#define SCREEN_HEIGHT            [[UIScreen mainScreen] bounds].size.height
+
+#define COLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+#endif /* PrefixHeader_pch */
+
